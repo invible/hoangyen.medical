@@ -4,7 +4,9 @@ namespace App\Http\Controllers\Frontend;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Loai; 
+use App\Models\Loai;
+use App\Models\Mau;
+use App\Models\Sanpham;
 use DB;
 
 class FrontendController extends Controller
@@ -55,5 +57,32 @@ class FrontendController extends Controller
     public function contact()
     {
         return view('frontend.pages.contact');
+    }
+
+    /**
+     * Action hiển thị danh sách Sản phẩm
+     */
+    public function product(Request $request)
+    {
+    // Query tìm danh sách sản phẩm
+    $danhsachsanpham = $this->searchSanPham($request);
+
+    // Query Lấy các hình ảnh liên quan của các Sản phẩm đã được lọc
+    $danhsachhinhanhlienquan = DB::table('cusc_hinhanh')
+                            ->whereIn('sp_ma', $danhsachsanpham->pluck('sp_ma')->toArray())
+                            ->get();
+
+    // Query danh sách Loại
+    $danhsachloai = Loai::all();
+
+    // Query danh sách màu
+    $danhsachmau = Mau::all();
+
+    // Hiển thị view `frontend.index` với dữ liệu truyền vào
+    return view('frontend.pages.product')
+        ->with('danhsachsanpham', $danhsachsanpham)
+        ->with('danhsachhinhanhlienquan', $danhsachhinhanhlienquan)
+        ->with('danhsachmau', $danhsachmau)
+        ->with('danhsachloai', $danhsachloai);
     }
 }
