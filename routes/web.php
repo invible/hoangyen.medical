@@ -21,4 +21,6 @@ Route::get('/lien-he', 'Frontend\FrontendController@contact')->name('frontend.co
 
 Route::get('/san-pham', 'Frontend\FrontendController@product')->name('frontend.product');
 
-Route::get('/san-pham/{id}', 'FrontendController@productDetail')->name('frontend.productDetail');
+Route::get('/san-pham/{id}', 'Frontend\FrontendController@productDetail')->name('frontend.productDetail');
+
+Route::get('/gio-hang', 'Frontend\FrontendController@cart')->name('frontend.cart');

@@ -124,5 +124,13 @@ class FrontendController extends Controller
         ->with('danhsachhinhanhlienquan', $danhsachhinhanhlienquan)
         ->with('danhsachmau', $danhsachmau)
         ->with('danhsachloai', $danhsachloai);
-}
+    }
+
+    /**
+     * Action hiển thị giỏ hàng
+     */
+    public function cart(Request $request)
+    {
+        return view('frontend.pages.shopping-cart');
+    }
 }
