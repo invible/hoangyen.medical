@@ -41,4 +41,13 @@ class FrontendController extends Controller
         $data = $query->get();
         return $data;
     }
+
+    /**
+     * Action hiển thị view Giới thiệu
+     * GET /about
+     */
+    public function about()
+    {
+        return view('frontend.pages.about');
+    }
 }

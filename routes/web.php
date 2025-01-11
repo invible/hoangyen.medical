@@ -12,4 +12,7 @@ use App\Http\Controllers\Frontend\FrontendController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//Router front-end
 Route::get('/', 'Frontend\FrontendController@index')->name('frontend.home');
+Route::get('/gioi-thieu', 'Frontend\FrontendController@about')->name('frontend.about');
+
