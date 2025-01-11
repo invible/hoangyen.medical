@@ -50,4 +50,10 @@ class FrontendController extends Controller
     {
         return view('frontend.pages.about');
     }
+
+    /** * Action hiển thị view Liên hệ * GET /contact */ 
+    public function contact()
+    {
+        return view('frontend.pages.contact');
+    }
 }

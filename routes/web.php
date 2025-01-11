@@ -15,4 +15,4 @@ use App\Http\Controllers\Frontend\FrontendController;
 //Router front-end
 Route::get('/', 'Frontend\FrontendController@index')->name('frontend.home');
 Route::get('/gioi-thieu', 'Frontend\FrontendController@about')->name('frontend.about');
-
+Route::get('/lien-he', 'Frontend\FrontendController@contact')->name('frontend.contact');
