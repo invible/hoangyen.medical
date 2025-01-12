@@ -3,7 +3,7 @@
 
 {{-- Thay thế nội dung vào Placeholder `title` của view `frontend.layouts.master` --}}
 @section('title')
-Liên hệ Shop Hoa tươi - Sunshine
+Liên hệ Hoàng Yến Medical
 @endsection
 
 {{-- Thay thế nội dung vào Placeholder `custom-css` của view `frontend.layouts.master` --}}
@@ -26,7 +26,7 @@ Liên hệ Shop Hoa tươi - Sunshine
             <div class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
                 <form name="contactForm" ng-submit="submitContactForm()" novalidate>
                     <h4 class="mtext-105 cl2 txt-center p-b-30">
-                        Gởi lời nhắn cho công ty Sunshine
+                        Gởi lời nhắn cho Hoàng Yến Medical
                     </h4>
 
                     <!-- Div Thông báo lỗi 
@@ -81,7 +81,7 @@ Liên hệ Shop Hoa tươi - Sunshine
                         </span>
 
                         <p class="stext-115 cl6 size-213 p-t-18">
-                            130 Xô Viết Nghệ Tỉnh, Phường An Hội, Quận Ninh Kiều, TP Cần Thơ
+                            Đường Hoàng Sa, Thị trấn An Châu, huyện Châu Thành, tỉnh An Giang
                         </p>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ Liên hệ Shop Hoa tươi - Sunshine
                         </span>
 
                         <p class="stext-115 cl1 size-213 p-t-18">
-                            0915-659-223
+                            (+84) 706 570 613
                         </p>
                     </div>
                 </div>
@@ -113,7 +113,7 @@ Liên hệ Shop Hoa tươi - Sunshine
                         </span>
 
                         <p class="stext-115 cl1 size-213 p-t-18">
-                            nentangtoituonglai@gmail.com
+                            lvthanh9696@gmail.com
                         </p>
                     </div>
                 </div>

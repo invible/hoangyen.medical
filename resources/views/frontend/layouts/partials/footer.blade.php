@@ -3,31 +3,37 @@
         <div class="row">
             <div class="col-sm-6 col-lg-3 p-b-50">
                 <h4 class="stext-301 cl0 p-b-30">
-                    Categories
+                    Danh mục
                 </h4>
 
                 <ul>
                     <li class="p-b-10">
                         <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Women
+                            Dung dịch sát khuẩn
                         </a>
                     </li>
 
                     <li class="p-b-10">
                         <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Men
+                            Khẩu trang
                         </a>
                     </li>
 
                     <li class="p-b-10">
                         <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Shoes
+                            Các loại Máy
                         </a>
                     </li>
 
                     <li class="p-b-10">
                         <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Watches
+                            Nhiệt kế
+                        </a>
+                    </li>
+
+                    <li class="p-b-10">
+                        <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+                            Vật tư y tế
                         </a>
                     </li>
                 </ul>
@@ -35,31 +41,31 @@
 
             <div class="col-sm-6 col-lg-3 p-b-50">
                 <h4 class="stext-301 cl0 p-b-30">
-                    Help
+                    Trợ giúp
                 </h4>
 
                 <ul>
                     <li class="p-b-10">
                         <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Track Order
+                            Hướng dẫn đặt hàng
                         </a>
                     </li>
 
                     <li class="p-b-10">
                         <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Returns
+                            Chính sách đổi hàng
                         </a>
                     </li>
 
                     <li class="p-b-10">
                         <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            Shipping
+                            Chính sách vận chuyển
                         </a>
                     </li>
 
                     <li class="p-b-10">
                         <a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-                            FAQs
+                            Hỏi đáp
                         </a>
                     </li>
                 </ul>
@@ -67,11 +73,11 @@
 
             <div class="col-sm-6 col-lg-3 p-b-50">
                 <h4 class="stext-301 cl0 p-b-30">
-                    GET IN TOUCH
+                    Liên hệ với chúng tôi
                 </h4>
 
                 <p class="stext-107 cl7 size-201">
-                    Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879
+                    Nếu có bất kỳ câu hỏi nào? Hãy đến cửa hàng tại Đường Hoàng Sa, Thị trấn An Châu, huyện Châu Thành, tỉnh An Giang hoặc gọi cho chúng tôi qua số (+84) 706 570 613
                 </p>
 
                 <div class="p-t-27">
@@ -91,7 +97,7 @@
 
             <div class="col-sm-6 col-lg-3 p-b-50">
                 <h4 class="stext-301 cl0 p-b-30">
-                    Newsletter
+                    Nhận thông tin khuyến mãi
                 </h4>
 
                 <form>
@@ -102,7 +108,7 @@
 
                     <div class="p-t-18">
                         <button class="flex-c-m stext-101 cl0 size-103 bg1 bor1 hov-btn2 p-lr-15 trans-04">
-                            Subscribe
+                            Theo dõi
                         </button>
                     </div>
                 </form>

@@ -3,7 +3,7 @@
 
 {{-- Thay thế nội dung vào Placeholder `title` của view `frontend.layouts.master` --}}
 @section('title')
-Danh sách sản phẩm Shop Hoa tươi - Sunshine
+Danh sách sản phẩm Hoàng Yến Medical
 @endsection
 
 {{-- Thay thế nội dung vào Placeholder `custom-css` của view `frontend.layouts.master` --}}

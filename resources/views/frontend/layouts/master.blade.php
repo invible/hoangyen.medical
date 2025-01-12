@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="sunshineApp">
+<html lang="en" ng-app="hoangyenApp">
 
 <head>
     <title>@yield('title')</title>
@@ -301,7 +301,7 @@
         // Khởi tạo ứng dụng AngularJS, sử dụng plugin ngCart
         // Do Laravel và AngularJS đều sử dụng dấu `Double bracket` để render dữ liệu
         // => để tránh bị xung đột cú pháp, ta sẽ đổi cú pháp render dữ liệu của AngularJS thành <% %>
-        var app = angular.module('sunshineApp', ['ngCart'],
+        var app = angular.module('hoangyenApp', ['ngCart'],
             function($interpolateProvider) {
                 $interpolateProvider.startSymbol('<%');
                 $interpolateProvider.endSymbol('%>');

@@ -3,7 +3,7 @@
 
 {{-- Thay thế nội dung vào Placeholder `title` của view `frontend.layouts.master` --}}
 @section('title')
-Giới thiệu Shop Hoa tươi - Sunshine
+Giới thiệu Hoàng Yến Medical
 @endsection
 
 {{-- Thay thế nội dung vào Placeholder `custom-css` của view `frontend.layouts.master` --}}
@@ -37,7 +37,7 @@ Giới thiệu Shop Hoa tươi - Sunshine
 
                     <p class="stext-113 cl6 p-b-26">
                         Nếu cần hỗ trợ, vui lòng gọi đến đường dây nóng của chúng tôi để được hỗ trợ khi cần thiết:<br />
-                        TEL: 0915-659-223
+                        TEL: 0706-570-613
                     </p>
                 </div>
             </div>

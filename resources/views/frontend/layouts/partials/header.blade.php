@@ -5,24 +5,24 @@
         <div class="top-bar">
             <div class="content-topbar flex-sb-m h-full container">
                 <div class="left-top-bar">
-                    Free shipping for standard order over $100
+                    Miễn phí vận chuyển cho đơn hàng từ 200.000 VNĐ.
                 </div>
 
                 <div class="right-top-bar flex-w h-full">
                     <a href="#" class="flex-c-m trans-04 p-lr-25">
-                        Help & FAQs
+                        Trợ giúp & Hỏi đáp
                     </a>
 
                     <a href="#" class="flex-c-m trans-04 p-lr-25">
-                        My Account
+                        Tài khoản của tôi
                     </a>
 
                     <a href="#" class="flex-c-m trans-04 p-lr-25">
-                        EN
+                        Tiếng Việt
                     </a>
 
                     <a href="#" class="flex-c-m trans-04 p-lr-25">
-                        USD
+                        VNĐ
                     </a>
                 </div>
             </div>
@@ -56,11 +56,11 @@
                         </li>
 
                         <li class="{{ Request::is('gioi-thieu') ? 'active-menu' : '' }}">
-                            <a href="{{ route('frontend.about') }}">About</a>
+                            <a href="{{ route('frontend.about') }}">Giới thiệu</a>
                         </li>
 
                         <li class="{{ Request::is('lien-he') ? 'active-menu' : '' }}">
-                            <a href="{{ route('frontend.contact') }}">Contact</a>
+                            <a href="{{ route('frontend.contact') }}">Liên hệ</a>
                         </li>
                     </ul>
                 </div>
@@ -118,26 +118,26 @@
         <ul class="topbar-mobile">
             <li>
                 <div class="left-top-bar">
-                    Free shipping for standard order over $100
+                    Miễn phí vận chuyển cho đơn hàng từ 200.000 VNĐ.
                 </div>
             </li>
 
             <li>
                 <div class="right-top-bar flex-w h-full">
                     <a href="#" class="flex-c-m p-lr-10 trans-04">
-                        Help & FAQs
+                        Trợ giúp & Hỏi đáp
                     </a>
 
                     <a href="#" class="flex-c-m p-lr-10 trans-04">
-                        My Account
+                        Tài khoản của tôi
                     </a>
 
                     <a href="#" class="flex-c-m p-lr-10 trans-04">
-                        EN
+                        Tiếng Việt
                     </a>
 
                     <a href="#" class="flex-c-m p-lr-10 trans-04">
-                        USD
+                        VNĐ
                     </a>
                 </div>
             </li>
@@ -145,7 +145,7 @@
 
         <ul class="main-menu-m">
             <li>
-                <a href="index.html">Home</a>
+                <a href="index.html">Trang chủ</a>
                 <ul class="sub-menu-m">
                     <li><a href="index.html">Homepage 1</a></li>
                     <li><a href="home-02.html">Homepage 2</a></li>

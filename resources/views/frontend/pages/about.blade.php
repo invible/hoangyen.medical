@@ -3,7 +3,7 @@
 
 {{-- Thay thế nội dung vào Placeholder `title` của view `frontend.layouts.master` --}}
 @section('title')
-Giới thiệu Shop Hoa tươi - Sunshine
+Giới thiệu Hoàng Yến Medical
 @endsection
 
 {{-- Thay thế nội dung vào Placeholder `custom-css` của view `frontend.layouts.master` --}}
@@ -15,7 +15,7 @@ Giới thiệu Shop Hoa tươi - Sunshine
 <!-- Title page -->
 <section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('{{ asset('themes/cozastore/images/bg-01.jpg') }}');">
     <h2 class="ltext-105 cl0 txt-center">
-        About
+        Giới thiệu
     </h2>
 </section>
 
@@ -27,32 +27,19 @@ Giới thiệu Shop Hoa tươi - Sunshine
             <div class="col-md-7 col-lg-8">
                 <div class="p-t-7 p-r-85 p-r-15-lg p-r-0-md">
                     <h3 class="mtext-111 cl2 p-b-16">
-                        Our Story
+                        Về chúng tôi
                     </h3>
 
                     <p class="stext-113 cl6 p-b-26">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consequat consequat enim, non
-                        auctor massa ultrices non. Morbi sed odio massa. Quisque at vehicula tellus, sed tincidunt
-                        augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                        Maecenas varius egestas diam, eu sodales metus scelerisque congue. Pellentesque habitant morbi
-                        tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas gravida justo eu
-                        arcu egestas convallis. Nullam eu erat bibendum, tempus ipsum eget, dictum enim. Donec non
-                        neque ut enim dapibus tincidunt vitae nec augue. Suspendisse potenti. Proin ut est diam. Donec
-                        condimentum euismod tortor, eget facilisis diam faucibus et. Morbi a tempor elit.
+                    Cửa hàng thiết bị y tế Hoàng Yến tự hào là một trong những đơn vị tiên phong trong việc cung cấp các sản phẩm y tế chất lượng cao, phục vụ nhu cầu chăm sóc sức khỏe của cộng đồng. Với kinh nghiệm nhiều năm trong ngành, Hoàng Yến cam kết mang đến những giải pháp thiết bị y tế hiện đại, đáp ứng các tiêu chuẩn khắt khe về chất lượng và an toàn.
                     </p>
 
                     <p class="stext-113 cl6 p-b-26">
-                        Donec gravida lorem elit, quis condimentum ex semper sit amet. Fusce eget ligula magna. Aliquam
-                        aliquam imperdiet sodales. Ut fringilla turpis in vehicula vehicula. Pellentesque congue ac
-                        orci ut gravida. Aliquam erat volutpat. Donec iaculis lectus a arcu facilisis, eu sodales
-                        lectus sagittis. Etiam pellentesque, magna vel dictum rutrum, neque justo eleifend elit, vel
-                        tincidunt erat arcu ut sem. Sed rutrum, turpis ut commodo efficitur, quam velit convallis
-                        ipsum, et maximus enim ligula ac ligula.
+                        Chúng tôi cung cấp đa dạng các sản phẩm như: dụng cụ hỗ trợ y tế, thiết bị chẩn đoán, vật tư tiêu hao, và nhiều loại thiết bị chuyên dụng khác. Hoàng Yến không chỉ là nơi bạn tìm thấy những sản phẩm y tế tốt nhất, mà còn là người bạn đồng hành đáng tin cậy trong việc chăm sóc sức khỏe cho gia đình và cộng đồng.
                     </p>
 
                     <p class="stext-113 cl6 p-b-26">
-                        Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us
-                        on (+1) 96 716 6879
+                        Nếu có bất kỳ câu hỏi nào? Hãy đến cửa hàng tại Đường Hoàng Sa, Thị trấn An Châu, huyện Châu Thành, tỉnh An Giang hoặc gọi cho chúng tôi qua số (+84) 706 570 613
                     </p>
                 </div>
             </div>
@@ -70,19 +57,20 @@ Giới thiệu Shop Hoa tươi - Sunshine
             <div class="order-md-2 col-md-7 col-lg-8 p-b-30">
                 <div class="p-t-7 p-l-85 p-l-15-lg p-l-0-md">
                     <h3 class="mtext-111 cl2 p-b-16">
-                        Our Mission
+                        Sứ mệnh của chúng tôi
                     </h3>
 
                     <p class="stext-113 cl6 p-b-26">
-                        Mauris non lacinia magna. Sed nec lobortis dolor. Vestibulum rhoncus dignissim risus, sed
-                        consectetur erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
-                        turpis egestas. Nullam maximus mauris sit amet odio convallis, in pharetra magna gravida.
-                        Praesent sed nunc fermentum mi molestie tempor. Morbi vitae viverra odio. Pellentesque ac velit
-                        egestas, luctus arcu non, laoreet mauris. Sed in ipsum tempor, consequat odio in, porttitor
-                        ante. Ut mauris ligula, volutpat in sodales in, porta non odio. Pellentesque tempor urna vitae
-                        mi vestibulum, nec venenatis nulla lobortis. Proin at gravida ante. Mauris auctor purus at
-                        lacus maximus euismod. Pellentesque vulputate massa ut nisl hendrerit, eget elementum libero
-                        iaculis.
+                    Sứ mệnh của chúng tôi là trở thành cầu nối giữa công nghệ y tế tiên tiến và người tiêu dùng, mang đến giải pháp chăm sóc sức khỏe toàn diện cho mọi người. Cửa hàng Hoàng Yến luôn đặt sức khỏe và sự an toàn của khách hàng lên hàng đầu, không ngừng nỗ lực cải tiến dịch vụ, cập nhật sản phẩm mới và xây dựng niềm tin với khách hàng.
+                    </p>
+                    <p class="stext-113 cl6 p-b-26">
+                    Hoàng Yến cam kết:
+                    Cung cấp sản phẩm chính hãng, chất lượng cao.
+                    Hỗ trợ tư vấn tận tâm và chuyên nghiệp.
+                    Đồng hành cùng khách hàng trong việc bảo vệ và nâng cao sức khỏe.
+                    </p>
+                    <p class="stext-113 cl6 p-b-26">
+                    Hãy để Hoàng Yến trở thành người bạn đồng hành đáng tin cậy trên hành trình chăm sóc sức khỏe của bạn và những người thân yêu.
                     </p>
 
                     <div class="bor16 p-l-29 p-b-9 m-t-22">
